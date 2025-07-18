@@ -173,14 +173,14 @@ const ContactForm = ({ formType, onClose }) => {
           </div>
           
           <div>
-            <label className="block text-stone-700 font-medium mb-2">Email Address *</label>
+            <label className="block text-slate-700 font-medium mb-2">Email Address *</label>
             <input
               type="email"
               name="email"
               value={formData.email}
               onChange={handleInputChange}
               required
-              className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors"
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
               placeholder="your@email.com"
             />
           </div>
@@ -188,25 +188,25 @@ const ContactForm = ({ formType, onClose }) => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <label className="block text-stone-700 font-medium mb-2">Phone Number</label>
+            <label className="block text-slate-700 font-medium mb-2">Phone Number</label>
             <input
               type="tel"
               name="phone"
               value={formData.phone}
               onChange={handleInputChange}
-              className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors"
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
               placeholder="(555) 123-4567"
             />
           </div>
           
           <div>
-            <label className="block text-stone-700 font-medium mb-2">Company/Organization</label>
+            <label className="block text-slate-700 font-medium mb-2">Company/Organization</label>
             <input
               type="text"
               name="company"
               value={formData.company}
               onChange={handleInputChange}
-              className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors"
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
               placeholder="Your company name"
             />
           </div>
@@ -214,12 +214,12 @@ const ContactForm = ({ formType, onClose }) => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <label className="block text-stone-700 font-medium mb-2">Project Type</label>
+            <label className="block text-slate-700 font-medium mb-2">Project Type</label>
             <select
               name="projectType"
               value={formData.projectType}
               onChange={handleInputChange}
-              className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors"
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
             >
               <option value="">Select service type</option>
               <option value="website-redesign">Website Redesign & Development</option>
@@ -232,12 +232,12 @@ const ContactForm = ({ formType, onClose }) => {
           </div>
           
           <div>
-            <label className="block text-stone-700 font-medium mb-2">Timeline</label>
+            <label className="block text-slate-700 font-medium mb-2">Timeline</label>
             <select
               name="timeline"
               value={formData.timeline}
               onChange={handleInputChange}
-              className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors"
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
             >
               <option value="">Select timeline</option>
               <option value="asap">ASAP</option>
@@ -250,12 +250,12 @@ const ContactForm = ({ formType, onClose }) => {
         </div>
         
         <div>
-          <label className="block text-stone-700 font-medium mb-2">Budget Range</label>
+          <label className="block text-slate-700 font-medium mb-2">Budget Range</label>
           <select
             name="budget"
             value={formData.budget}
             onChange={handleInputChange}
-            className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors"
+            className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
           >
             <option value="">Select budget range</option>
             <option value="under-5k">Under $5,000</option>
@@ -268,13 +268,13 @@ const ContactForm = ({ formType, onClose }) => {
         </div>
         
         <div>
-          <label className="block text-stone-700 font-medium mb-2">Tell us about your goals</label>
+          <label className="block text-slate-700 font-medium mb-2">Tell us about your goals</label>
           <textarea
             name="message"
             value={formData.message}
             onChange={handleInputChange}
             rows="4"
-            className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors resize-none"
+            className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors resize-none"
             placeholder="What are your main digital marketing goals? What challenges are you facing with online visibility and lead generation? How can Remodely LLC help transform your stone business?"
           ></textarea>
         </div>
@@ -902,18 +902,18 @@ function App() {
               </CardContent>
             </Card>
 
-            <Card className="shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0 bg-gradient-to-br from-white to-amber-50">
+            <Card className="shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0 bg-gradient-to-br from-white to-blue-50">
               <CardHeader className="pb-6">
-                <div className="bg-gradient-to-br from-amber-600 to-amber-700 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <Globe className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="text-2xl text-stone-800">Luxury Stone Showcase</CardTitle>
-                <CardDescription className="text-stone-600 text-lg leading-relaxed">
+                <CardTitle className="text-2xl text-slate-800">Luxury Stone Showcase</CardTitle>
+                <CardDescription className="text-slate-600 text-lg leading-relaxed">
                   Visual platform highlighting your premium collections and craftsmanship
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-4 text-stone-700">
+                <ul className="space-y-4 text-slate-700">
                   <li className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-emerald-500" />
                     High-resolution stone galleries
@@ -939,13 +939,13 @@ function App() {
                 <div className="bg-gradient-to-br from-emerald-600 to-emerald-700 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <Zap className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="text-2xl text-stone-800">Premium Brand Marketing</CardTitle>
-                <CardDescription className="text-stone-600 text-lg leading-relaxed">
+                <CardTitle className="text-2xl text-slate-800">Premium Brand Marketing</CardTitle>
+                <CardDescription className="text-slate-600 text-lg leading-relaxed">
                   Strategic positioning to attract architects, designers, and luxury homeowners
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-4 text-stone-700">
+                <ul className="space-y-4 text-slate-700">
                   <li className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-emerald-500" />
                     Luxury market positioning
