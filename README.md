@@ -1,4 +1,4 @@
-# Boulder Image Stone - Digital Analysis Presentation
+# Bolder Image Stone - Digital Analysis Presentation
 
 A comprehensive digital marketing analysis and presentation created by Remodely LLC for Boulder Image Stone, showcasing opportunities for growth in the Phoenix stone market.
 
