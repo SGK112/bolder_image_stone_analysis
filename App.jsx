@@ -1034,7 +1034,7 @@ function App() {
             </Card>
 
             {/* Professional Package */}
-            <Card className="bg-gradient-to-b from-blue-500/20 to-indigo-600/20 backdrop-blur-lg border-blue-400/30 relative">
+            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-blue-400 relative">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
                 <Badge className="bg-blue-500 text-white">Most Popular</Badge>
               </div>
