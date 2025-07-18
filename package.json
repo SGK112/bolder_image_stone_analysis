@@ -1,29 +1,29 @@
 {
-  "name": "boulder-image-stone-analysis",
-  "version": "1.0.0",
-  "description": "Digital marketing analysis and presentation by Remodely LLC for Boulder Image Stone",
-  "main": "index.html",
-  "scripts": {
-    "start": "python3 -m http.server 3000",
-    "serve": "python3 -m http.server 8000",
-    "dev": "python3 -m http.server 3000"
-  },
-  "keywords": [
-    "digital-marketing",
-    "seo-analysis",
-    "stone-industry",
-    "phoenix-business",
-    "competitive-analysis",
-    "lead-generation"
-  ],
-  "author": "Remodely LLC",
-  "license": "Private",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/[username]/boulder-image-stone-analysis.git"
-  },
-  "homepage": "https://[username].github.io/boulder-image-stone-analysis",
-  "engines": {
-    "node": ">=14.0.0"
-  }
+    "name": "boulder-image-stone-analysis",
+    "version": "1.0.0",
+    "description": "Digital marketing analysis and presentation by Remodely LLC for Boulder Image Stone",
+    "main": "index.html",
+    "scripts": {
+        "start": "python3 -m http.server 3000",
+        "serve": "python3 -m http.server 8000",
+        "dev": "python3 -m http.server 3000"
+    },
+    "keywords": [
+        "digital-marketing",
+        "seo-analysis",
+        "stone-industry",
+        "phoenix-business",
+        "competitive-analysis",
+        "lead-generation"
+    ],
+    "author": "Remodely LLC",
+    "license": "Private",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SGK112/bolder_image_stone_analysis.git"
+    },
+    "homepage": "https://SGK112.github.io/bolder_image_stone_analysis",
+    "engines": {
+        "node": ">=14.0.0"
+    }
 }
