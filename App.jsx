@@ -303,6 +303,7 @@ const ContactForm = ({ formType, onClose }) => {
 
 function App() {
   const [activeModal, setActiveModal] = React.useState(null);
+  const [activePage, setActivePage] = React.useState('main'); // 'main', 'seo-details', 'transformation-details', 'analysis-details'
   
   const openModal = (formType) => {
     setActiveModal(formType);
@@ -310,6 +311,16 @@ function App() {
   
   const closeModal = () => {
     setActiveModal(null);
+  };
+
+  const navigateToPage = (page) => {
+    setActivePage(page);
+    window.scrollTo(0, 0);
+  };
+
+  const navigateToMain = () => {
+    setActivePage('main');
+    window.scrollTo(0, 0);
   };
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -973,7 +984,7 @@ function App() {
       <section className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-4">Investment Options</h2>
-          <p className="text-center text-gray-300 mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-slate-200 mb-12 max-w-2xl mx-auto">
             Choose the package that best fits your growth objectives and budget
           </p>
           
@@ -982,16 +993,16 @@ function App() {
             <Card className="bg-white/10 backdrop-blur-lg border-white/20">
               <CardHeader>
                 <CardTitle className="text-white text-xl">SEO Foundation</CardTitle>
-                <CardDescription className="text-gray-300">
+                <CardDescription className="text-slate-200">
                   Essential optimizations for immediate impact
                 </CardDescription>
                 <div className="text-3xl font-bold text-white mt-4">
                   $2,500
-                  <span className="text-lg font-normal text-gray-300">/month</span>
+                  <span className="text-lg font-normal text-slate-200">/month</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <ul className="space-y-3 text-sm text-gray-300">
+                <ul className="space-y-3 text-sm text-slate-100">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     Technical SEO fixes
@@ -1029,16 +1040,16 @@ function App() {
               </div>
               <CardHeader>
                 <CardTitle className="text-white text-xl">Growth Accelerator</CardTitle>
-                <CardDescription className="text-gray-300">
+                <CardDescription className="text-blue-100">
                   Comprehensive digital transformation
                 </CardDescription>
                 <div className="text-3xl font-bold text-white mt-4">
                   $4,500
-                  <span className="text-lg font-normal text-gray-300">/month</span>
+                  <span className="text-lg font-normal text-blue-100">/month</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <ul className="space-y-3 text-sm text-gray-300">
+                <ul className="space-y-3 text-sm text-white">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     Everything in SEO Foundation
@@ -1077,16 +1088,16 @@ function App() {
             <Card className="bg-white/10 backdrop-blur-lg border-white/20">
               <CardHeader>
                 <CardTitle className="text-white text-xl">Market Domination</CardTitle>
-                <CardDescription className="text-gray-300">
+                <CardDescription className="text-slate-200">
                   Complete digital ecosystem transformation
                 </CardDescription>
                 <div className="text-3xl font-bold text-white mt-4">
                   $7,500
-                  <span className="text-lg font-normal text-gray-300">/month</span>
+                  <span className="text-lg font-normal text-slate-200">/month</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <ul className="space-y-3 text-sm text-gray-300">
+                <ul className="space-y-3 text-sm text-white">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     Everything in Growth Accelerator
