@@ -636,6 +636,232 @@ function App() {
         </div>
       </section>
 
+      {/* SEO Strategy & Opportunities */}
+      <section className="py-24 bg-gradient-to-br from-blue-50 to-slate-100">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">SEO Strategy & Market Opportunities</h2>
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto">Comprehensive analysis reveals massive untapped potential in Phoenix stone market SEO</p>
+          </div>
+
+          {/* SEO Tools Section */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold text-slate-800 mb-8 text-center">Essential SEO Tools & Framework</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Card className="shadow-lg bg-gradient-to-br from-emerald-50 to-emerald-100 border-emerald-200">
+                <CardHeader>
+                  <div className="bg-emerald-600 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <Search className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-emerald-800">Free SEO Tools</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="text-sm text-emerald-700 space-y-2">
+                    <li>• Google Search Console</li>
+                    <li>• Google My Business Insights</li>
+                    <li>• Google Keyword Planner</li>
+                    <li>• PageSpeed Insights</li>
+                    <li>• Schema Markup Validator</li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-lg bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200">
+                <CardHeader>
+                  <div className="bg-blue-600 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <BarChart3 className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-blue-800">Premium Tools</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="text-sm text-blue-700 space-y-2">
+                    <li>• SEMrush/Ahrefs ($200-500/mo)</li>
+                    <li>• BrightLocal (Local SEO)</li>
+                    <li>• Screaming Frog (Technical)</li>
+                    <li>• Moz Local (Citations)</li>
+                    <li>• Whitespark (Local Tracking)</li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-lg bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200">
+                <CardHeader>
+                  <div className="bg-purple-600 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <Target className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-purple-800">Analytics Suite</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="text-sm text-purple-700 space-y-2">
+                    <li>• Google Analytics 4</li>
+                    <li>• Google Tag Manager</li>
+                    <li>• Call tracking software</li>
+                    <li>• Heat mapping tools</li>
+                    <li>• Conversion tracking</li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          {/* High-Opportunity Keywords */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold text-slate-800 mb-8 text-center">Undervalued Keywords (Competitor Gaps)</h3>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <Card className="shadow-xl bg-gradient-to-br from-yellow-50 to-orange-100 border-orange-200">
+                <CardHeader>
+                  <CardTitle className="text-orange-800 text-xl">🎯 Primary Targets (High ROI)</CardTitle>
+                  <CardDescription className="text-orange-700">High value, lower competition opportunities</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="text-sm text-orange-700 space-y-3">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-1" />
+                      <div><strong>"no bookmatch fee Phoenix"</strong> - Unique advantage</div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-1" />
+                      <div><strong>"quartz countertops Phoenix showroom"</strong> - Local intent</div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-1" />
+                      <div><strong>"Italian marble Phoenix AZ"</strong> - Premium positioning</div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-1" />
+                      <div><strong>"best stone prices Phoenix Valley"</strong> - Price advantage</div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-1" />
+                      <div><strong>"Eternos collection Phoenix"</strong> - Exclusive products</div>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-xl bg-gradient-to-br from-green-50 to-emerald-100 border-emerald-200">
+                <CardHeader>
+                  <CardTitle className="text-emerald-800 text-xl">💎 Long-tail Goldmines</CardTitle>
+                  <CardDescription className="text-emerald-700">Specific, high-conversion searches</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="text-sm text-emerald-700 space-y-3">
+                    <li className="flex items-start gap-2">
+                      <Star className="w-4 h-4 text-yellow-500 mt-1" />
+                      <div><strong>"white onyx bathroom vanity Phoenix"</strong></div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Star className="w-4 h-4 text-yellow-500 mt-1" />
+                      <div><strong>"Calacatta viola marble kitchen island"</strong></div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Star className="w-4 h-4 text-yellow-500 mt-1" />
+                      <div><strong>"quartzite vs granite Phoenix"</strong></div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Star className="w-4 h-4 text-yellow-500 mt-1" />
+                      <div><strong>"stone care maintenance Phoenix"</strong></div>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Star className="w-4 h-4 text-yellow-500 mt-1" />
+                      <div><strong>"luxury stone showroom West Phoenix"</strong></div>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          {/* Competitor Gap Analysis */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold text-slate-800 mb-8 text-center">Major Competitor Gaps (Opportunities)</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Card className="shadow-lg bg-gradient-to-br from-red-50 to-red-100 border-red-200">
+                <CardHeader>
+                  <div className="bg-red-600 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <AlertTriangle className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-red-800 text-lg">Educational Content</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-red-700 mb-3"><strong>Gap:</strong> No comprehensive stone care guides</p>
+                  <p className="text-sm text-red-700"><strong>Opportunity:</strong> Become Phoenix stone authority</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-lg bg-gradient-to-br from-indigo-50 to-indigo-100 border-indigo-200">
+                <CardHeader>
+                  <div className="bg-indigo-600 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <Globe className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-indigo-800 text-lg">Video SEO</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-indigo-700 mb-3"><strong>Gap:</strong> Minimal video optimization</p>
+                  <p className="text-sm text-indigo-700"><strong>Opportunity:</strong> Dominate YouTube + video snippets</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-lg bg-gradient-to-br from-teal-50 to-teal-100 border-teal-200">
+                <CardHeader>
+                  <div className="bg-teal-600 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <Users className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-teal-800 text-lg">B2B Content</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-teal-700 mb-3"><strong>Gap:</strong> No architect/contractor content</p>
+                  <p className="text-sm text-teal-700"><strong>Opportunity:</strong> Capture professional searches</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-lg bg-gradient-to-br from-pink-50 to-pink-100 border-pink-200">
+                <CardHeader>
+                  <div className="bg-pink-600 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <Smartphone className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-pink-800 text-lg">Local Design Authority</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-pink-700 mb-3"><strong>Gap:</strong> No Phoenix-specific design content</p>
+                  <p className="text-sm text-pink-700"><strong>Opportunity:</strong> Own desert modern trends</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          {/* ROI Projections */}
+          <div className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-8 text-white">
+            <h3 className="text-3xl font-bold mb-6 text-center">SEO Strategy ROI Projections</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="text-4xl font-bold mb-2">50-75%</div>
+                <div className="text-blue-200">Organic Traffic Increase</div>
+                <div className="text-sm text-blue-300 mt-2">Within 6 months</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold mb-2">300%</div>
+                <div className="text-blue-200">Local Pack Visibility</div>
+                <div className="text-sm text-blue-300 mt-2">Google My Business optimization</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold mb-2">$25K+</div>
+                <div className="text-blue-200">Monthly Revenue Increase</div>
+                <div className="text-sm text-blue-300 mt-2">From improved lead generation</div>
+              </div>
+            </div>
+            <div className="text-center mt-8">
+              <Button 
+                className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3"
+                onClick={() => openModal('analysis')}
+              >
+                Get Complete SEO Analysis
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Solutions Overview */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
